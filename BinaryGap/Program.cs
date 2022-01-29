@@ -2,7 +2,7 @@
 Console.WriteLine("*** Binary gap ***");
 Console.WriteLine();
 
-int[] number = { 529, 1, 4, 5, 8, 9, 15, 20, 32 };
+int[] number = { 529, 1, 4, 5, 8, 9, 15, 20, 32, 561892 };
 
 for (int i = 0; i < number.Length; i++)
 {
@@ -27,11 +27,10 @@ public static class Solution
 
             if (last == 1)
             {
-                if (binarySpace < inGapCounter)
-                {
-                    binarySpace = inGapCounter; inGapCounter = 0;
-                }
+                if (binarySpace < inGapCounter) binarySpace = inGapCounter;
+
                 isInGap = true;
+                inGapCounter = 0;
             }
             else if (isInGap)
                 inGapCounter++;
