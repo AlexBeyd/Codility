@@ -2,7 +2,7 @@
 Console.WriteLine("*** Binary gap ***");
 Console.WriteLine();
 
-int[] number = { 529, 1, 4, 5, 8, 9, 15, 20, 32, 561892 };
+int[] number = { 529, 1, 4, 5, 8, 9, 15, 20, 32, 561892, 74901729, 1376796946, 1073741825, 1610612737 };
 
 for (int i = 0; i < number.Length; i++)
 {
