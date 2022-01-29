@@ -11,7 +11,6 @@ for (int i = 0; i < number.Length; i++)
     Console.WriteLine();
 }
 
-
 public static class Solution
 {
     public static int GetBinaryGap(int number)
